@@ -1,0 +1,31 @@
+{
+  "name": "dreamphone",
+  "version": "0.0.1",
+  "description": "Guess who likes you in this talking telephone game!",
+  "main": "app.coffee",
+  "scripts": {
+    "start": "node run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dordille/dreamphone.git"
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "coffee-script": "~1.6.x",
+    "mongoose": "~3.6.x",
+    "jade": "*",
+    "stylus": "*",
+    "brunch": "latest",
+    "twilio": "~1.5.0"
+  },
+  "devDependencies": {
+    "node-dev": "2.x.x",
+    "mocha": "latest",
+    "should": "latest",
+    "pow-mongoose-fixtures": "latest"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
