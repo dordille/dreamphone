@@ -32,7 +32,7 @@ module.exports = (app) ->
       if (err || !game)
         twiml.reject()
       else
-        twiml.play game.boys[to].sound.file
+        twiml.message game.boys[to].sound.tmsg
 
       res.send twiml
 
