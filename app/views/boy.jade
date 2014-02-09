@@ -1,0 +1,8 @@
+.boy(class=boy.traits.join(' '))
+  h3.place= boy.place
+  .frame
+    .avatar_frame
+      img.avatar(src='https://en.gravatar.com/userimage/11775542/268cd38bf0052faec250dafc47d8b0f5.png')
+      h2.name= boy.name
+      h3.number
+        a(href="tel:#{boy.tnumber}")= boy.tnumber

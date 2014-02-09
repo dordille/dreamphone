@@ -1,0 +1,194 @@
+@media screen and (max-width:480px) {
+  div {
+    float: none;
+    clear: both;
+  }
+}
+.beach {
+  background-color: #ff4136;
+}
+.beach .frame {
+  -webkit-transform: rotate(6deg);
+  -moz-transform: rotate(6deg);
+  -o-transform: rotate(6deg);
+  -ms-transform: rotate(6deg);
+  transform: rotate(6deg);
+}
+.beach .place {
+  color: #ff4136;
+}
+.movies {
+  background-color: #0074d9;
+}
+.movies .frame {
+  -webkit-transform: rotate(6deg);
+  -moz-transform: rotate(6deg);
+  -o-transform: rotate(6deg);
+  -ms-transform: rotate(6deg);
+  transform: rotate(6deg);
+}
+.movies .place {
+  color: #0074d9;
+}
+.snackshop {
+  background-color: #ffdc00;
+}
+.snackshop .frame {
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
+.snackshop .place {
+  color: #ffdc00;
+}
+.park {
+  background-color: #01ff70;
+}
+.park .frame {
+  -webkit-transform: rotate(6deg);
+  -moz-transform: rotate(6deg);
+  -o-transform: rotate(6deg);
+  -ms-transform: rotate(6deg);
+  transform: rotate(6deg);
+}
+.park .place {
+  color: #01ff70;
+}
+.gym {
+  background-color: #f012be;
+}
+.gym .frame {
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
+.gym .place {
+  color: #f012be;
+}
+.mall {
+  background-color: #0074d9;
+}
+.mall .frame {
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
+.mall .place {
+  color: #0074d9;
+}
+.boys {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+.boy {
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+.boy .place {
+  padding: 5px 0px 5px 0px;
+  line-height: 24px;
+  background-color: #000;
+  text-align: center;
+  width: 80%;
+  margin: 5px auto 2px auto;
+}
+.boy .name {
+  margin: 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  color: #fff;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+.boy h3.number {
+  margin: 0px;
+  position: absolute;
+  bottom: -25px;
+  left: 10px;
+}
+.boy h3.number a {
+  text-decoration: none;
+  color: #000;
+}
+.boy .frame {
+  margin-left: 22px;
+}
+.boy .avatar_frame {
+  width: 150px;
+  height: 200px;
+  border: 1px solid #000;
+  border: 3px solid #000;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+.boy .avatar_frame .avatar {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width:900px) {
+  .boys {
+    width: 450px;
+  }
+}
+@media screen and (device-aspect-ratio: 40/71) {
+  h2 {
+    font-size: 72px;
+  }
+  h3 {
+    font-size: 48px;
+  }
+  .boys {
+    width: 100%;
+  }
+  .boy {
+    height: 700px;
+    width: 48%;
+    -webkit-border-radius: 24px;
+    border-radius: 24px;
+  }
+  .boy .place {
+    margin-bottom: 20px;
+  }
+  .boy .frame {
+    height: 80%;
+    margin-left: 60px;
+  }
+  .boy .avatar_frame {
+    width: 80%;
+    height: 95%;
+  }
+  .boy h3.number {
+    margin: 0px;
+    position: absolute;
+    bottom: -35px;
+  }
+}
+
+
+body {
+  font-family: avenir, 'avenir next', helvetica, arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  font-family: avenir, 'avenir next', helvetica, arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header {
+  margin: auto;
+  text-align: center;
+}
+
+
+/*# sourceMappingURL=app.css.map*/

@@ -1,0 +1,133 @@
+@import 'nib'
+@import 'colors'
+
+@media screen and (max-width:480px)
+  div
+    float: none
+    clear: both
+
+.beach
+  background-color: $beach
+  .frame
+    transform:rotate(6deg)
+  .place
+    color: $beach
+
+.movies
+  background-color: $movies
+  .frame
+    transform:rotate(6deg)
+  .place
+    color: $movies
+
+.snackshop
+  background-color: $snack
+  .frame
+    transform:rotate(-6deg)
+  .place
+    color: $snack
+
+.park
+  background-color: $park
+  .frame
+    transform:rotate(6deg)
+  .place
+    color: $park
+
+.gym
+  background-color: $gym
+  .frame
+    transform:rotate(-6deg)
+  .place
+    color: $gym
+
+.mall
+  background-color: $mall
+  .frame
+    transform:rotate(-6deg)
+  .place
+    color: $mall
+
+.boys
+  margin-left: auto
+  margin-right: auto
+  width: 900px
+
+.boy
+  width: 200px
+  height: 300px
+  margin: 10px
+  display: inline-block
+  border-radius: 6px
+
+  .place
+    padding: 5px 0px 5px 0px
+    line-height: 24px
+    background-color: #000
+    text-align: center
+    width: 80%
+    margin: 5px auto 2px auto
+
+  .name
+    margin: 0px
+    position: absolute
+    bottom: 0px
+    left: 10px
+    color: white
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000
+
+  h3.number
+    margin: 0px
+    position: absolute
+    bottom: -25px
+    left: 10px
+    a
+      text-decoration: none
+      color: #000
+
+  .frame
+    margin-left: 22px
+  
+  .avatar_frame
+    width: 150px
+    height: 200px
+    border: black
+    border: 3px solid black
+    border-radius: 2px
+
+    .avatar
+      width: 100%
+      height: 100%
+
+@media screen and (max-width:900px)
+  .boys
+    width: 450px
+
+@media screen and (device-aspect-ratio: 40/71)
+  h2
+    font-size: 72px
+  h3
+    font-size: 48px
+  .boys
+    width: 100%
+  .boy
+    height: 700px
+    width: 48%
+    border-radius: 24px
+    .place
+      margin-bottom: 20px
+    .frame
+      height: 80%
+      margin-left: 60px
+    .avatar_frame
+      width: 80%
+      height: 95%
+    h3.number
+      margin: 0px
+      position: absolute
+      bottom: -35px
+
+
+
+  
+

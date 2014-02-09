@@ -25,7 +25,15 @@ app.set 'game', require('./models/game')(mongoose)
 
 
 # Routes
+Boys = require './models/boys'
+app.get '/', (req, res) ->
+  res.render 'index', { boys: Boys }
+
+
+
 require('./routes/twilio') app
+
+
 
 server = http.createServer app
 server.listen app.get('port'), () ->
