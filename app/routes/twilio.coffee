@@ -11,7 +11,7 @@ module.exports = (app) ->
     twiml = new twilio.TwimlResponse
 
     if req.param('To') == reset
-      return Game.create req.param('To'), (err, game) ->
+      return Game.create req.param('From'), (err, game) ->
         twiml.say "New game ready to play!"
         res.send twiml
 
