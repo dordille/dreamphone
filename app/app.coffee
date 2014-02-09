@@ -1,3 +1,4 @@
+config      = require './config'
 express     = require 'express'
 http        = require 'http'
 path        = require 'path'
@@ -17,18 +18,14 @@ app.use express.static(path.join(__dirname, '..', 'public'))
 app.use app.router
 
 
-twilio = require 'twilio'
-resp = new twilio.TwimlResponse()
+# Database Configuration
+mongoose = require 'mongoose'
+mongoose.connect config.mongo.uri
+app.set 'game', require('./models/game')(mongoose)
 
-hook = twilio.webhook
-	validate: false
 
-app.get '/twilio', hook, (req, res) ->
-  twiml = new twilio.TwimlResponse
-  twiml.play 'https://s3.amazonaws.com/dreamphone/i_know.mp3'
-
-  res.send twiml
-
+# Routes
+require('./routes/twilio') app
 
 server = http.createServer app
 server.listen app.get('port'), () ->
