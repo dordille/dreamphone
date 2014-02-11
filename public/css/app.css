@@ -200,7 +200,7 @@ a {
   position: absolute;
   height: 150px;
   width: 150px;
-  bottom: 125px;
+  top: 150px;
   right: 85px;
 }
 .play {
