@@ -13,7 +13,7 @@ module.exports = boys = [
   tnumber: '+16466811399'
   traits: ['movies', 'candy', 'jeans']
   place: "Reel Movies"
-  image: "http://upload.wikimedia.org/wikipedia/commons/e/e1/John_McCain_official_portrait_2009.jpg"
+  image: "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/John_McCain_official_portrait_2009.jpg/473px-John_McCain_official_portrait_2009.jpg"
 ,
   # name: 'Gary'
   name: 'Mark'
@@ -21,7 +21,7 @@ module.exports = boys = [
   tnumber: '+16466817201'
   traits: ['movies', 'popcorn', 'jeans']
   place: "Reel Movies"
-  image: 'http://upload.wikimedia.org/wikipedia/commons/b/b5/Mark_Pryor%2C_Official_Portrait%2C_112th_Congress_%282011%29_1.jpg'
+  image: 'http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Mark_Pryor%2C_Official_Portrait%2C_112th_Congress_%282011%29_1.jpg/473px-Mark_Pryor%2C_Official_Portrait%2C_112th_Congress_%282011%29_1.jpg'
 ,
   # name: 'Jamal'
   name: 'Marco'
