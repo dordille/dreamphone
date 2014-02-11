@@ -89,7 +89,7 @@
 }
 .boy {
   width: 200px;
-  height: 300px;
+  height: auto;
   margin: 10px;
   display: inline-block;
   -webkit-border-radius: 6px;
@@ -201,83 +201,28 @@ a {
 }
 
 .traits {
-  display: block;
-  position: relative;
-  margin-top: 25px;
-  margin-left: 25px;
-  float: left;
+  margin-top: 30px;
+  text-align: center;
 }
-.traits span {
-  float: left;
+.traits .trait {
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 5px;
+  text-transform: uppercase;
+  color: #000;
 }
-.traits .pizza:before {
-  content: '🍕';
+.traits .movies,
+.traits .park,
+.traits .gym,
+.traits .snackshop,
+.traits .beach,
+.traits .mall {
+  display: none;
 }
-.traits .icecream:before {
-  content: '🍨';
-}
-.traits .cookies:before {
-  content: '🍪';
-}
-.traits .popcorn:before {
-  content: '🌽';
-}
-.traits .candy:before {
-  content: '🍬';
-}
-.traits .hotdogs:before {
-  display: block;
-  width: 23px;
-  height: 20px;
-  background-size: 23px 20px;
-  background-image: url("/images/hotdog.gif");
-  content: ' ';
-}
-.traits .basketball:before {
-  content: '🏀';
-}
-.traits .baseball:before {
-  content: '⚾';
-}
-.traits .surfing:before {
-  content: '🏄';
-}
-.traits .skateboard:before {
-  display: block;
-  width: 20px;
-  height: 20px;
-  background-size: 20px 20px;
-  background-image: url("/images/skate.png");
-  content: ' ';
-}
-.traits .tennis:before {
-  content: '🎾';
-}
-.traits .volleyball:before {
-  content: '⚪';
-}
-.traits .jeans:before {
-  content: '👖';
-}
-.traits .glasses:before {
-  content: '👓';
-}
-.traits .hat:before {
-  content: '🎩';
-}
-.traits .yellow:before {
-  content: '👘';
-}
-.traits .tie:before {
-  content: '👔';
-}
-.traits .jacket:before {
-  display: block;
-  width: 20px;
-  height: 20px;
-  background-size: 20px 20px;
-  background-image: url("/images/jacket.png");
-  content: ' ';
+@media screen and (device-aspect-ratio: 40/71) {
+  .traits .trait {
+    font-size: 32px;
+  }
 }
 
 
