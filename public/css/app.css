@@ -194,14 +194,7 @@ a {
   color: #d90057;
 }
 .masthead img.dream {
-  padding-right: 60px;
-}
-.masthead img.senate {
-  position: absolute;
-  height: 150px;
-  width: 150px;
-  top: 150px;
-  right: 85px;
+  padding-right: 30px;
 }
 .play {
   color: #fff;

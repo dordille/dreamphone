@@ -17,11 +17,12 @@ module.exports = (app) ->
 
     Game.findOne { number: req.param('From') }, (err, game) ->
       if (err || !game)
-        twiml.reject()
-      else
-        twiml.play game.boys[req.param('To')].sound.file
+        return res.send twiml.reject()
+      
+      if req.param('To') == game.admirer.tnumber
+        return res.send twiml.play('https://s3.amazonaws.com/dreamphone/like.mp3')
 
-      res.send twiml
+      return res.send twiml.play(game.boys[req.param('To')].sound.file)
 
   app.get '/twilio/messaging', hook, (req, res) ->
     from = req.param 'From'
