@@ -6,3 +6,6 @@
       h2.name= boy.name
       h3.number
         a(href="tel:#{boy.tnumber}")= boy.tnumber
+  span.traits
+    for trait in boy.traits
+      span(class=trait)

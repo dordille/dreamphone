@@ -89,7 +89,7 @@
 }
 .boy {
   width: 200px;
-  height: 290px;
+  height: 300px;
   margin: 10px;
   display: inline-block;
   -webkit-border-radius: 6px;
@@ -198,6 +198,86 @@ a {
 }
 .play {
   color: #fff;
+}
+
+.traits {
+  display: block;
+  position: relative;
+  margin-top: 25px;
+  margin-left: 25px;
+  float: left;
+}
+.traits span {
+  float: left;
+}
+.traits .pizza:before {
+  content: '🍕';
+}
+.traits .icecream:before {
+  content: '🍨';
+}
+.traits .cookies:before {
+  content: '🍪';
+}
+.traits .popcorn:before {
+  content: '🌽';
+}
+.traits .candy:before {
+  content: '🍬';
+}
+.traits .hotdogs:before {
+  display: block;
+  width: 23px;
+  height: 20px;
+  background-size: 23px 20px;
+  background-image: url("/images/hotdog.gif");
+  content: ' ';
+}
+.traits .basketball:before {
+  content: '🏀';
+}
+.traits .baseball:before {
+  content: '⚾';
+}
+.traits .surfing:before {
+  content: '🏄';
+}
+.traits .skateboard:before {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  background-image: url("/images/skate.png");
+  content: ' ';
+}
+.traits .tennis:before {
+  content: '🎾';
+}
+.traits .volleyball:before {
+  content: '⚪';
+}
+.traits .jeans:before {
+  content: '👖';
+}
+.traits .glasses:before {
+  content: '👓';
+}
+.traits .hat:before {
+  content: '🎩';
+}
+.traits .yellow:before {
+  content: '👘';
+}
+.traits .tie:before {
+  content: '👔';
+}
+.traits .jacket:before {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  background-image: url("/images/jacket.png");
+  content: ' ';
 }
 
 
