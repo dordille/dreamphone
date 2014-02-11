@@ -185,6 +185,12 @@ a {
   font-family: avenir, 'avenir next', helvetica, arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+.github {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}
 
 .header {
   margin: auto;
