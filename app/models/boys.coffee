@@ -66,7 +66,7 @@ module.exports = boys = [
 ######################################################
 ,
   # name: 'Mark'
-  mame: 'Jay'
+  name: 'Jay'
   number: '5558522'
   tnumber: '+16466815856'
   traits: ['park', 'hat', 'baseball']
